@@ -1,0 +1,244 @@
+.container {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-profile {
+    display: flex;
+    width: 190px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.upgrade {
+    width: 128px;
+    border-radius: 25px;
+    padding: 10px;
+    background: none;
+}
+
+.user {
+    width: 43px;
+    border-radius: 50%;
+    background: #E9527D;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    padding: 0;
+}
+
+.navigation ul a {
+    text-decoration: none;
+    color: #252535;
+    font-size: 16px;
+}
+
+.secondary-menu {
+    border: 1px solid black;
+    max-width: 250px;
+    padding: 5px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 745px;
+    justify-content: space-between;
+    background: #252535;
+}
+
+
+.secondary-menu ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+    list-style: none;
+}
+
+.secondary-menu ul li {
+    max-width: 200px;
+    min-height: 35px;
+}
+
+.secondary-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.secondary-menu ul li:last-child button {
+    list-style: none;
+    color: #4E94D9;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.secondary-menu ul li:last-child {
+    margin-left: 18px;
+    cursor: pointer !important;
+}
+
+.secondary-menu ul li:last-child:hover {
+    cursor: pointer;
+}
+
+.secondary-menu ul li:nth-child(1)::before {
+    content: "\2022";
+    color: #FFB658;
+    margin-right: 8px;
+}
+
+.secondary-menu ul li:nth-child(2)::before {
+    content: "\2022";
+    color: #FF8158;
+    margin-right: 8px;
+}
+
+.secondary-menu ul li:nth-child(3)::before {
+    content: "\2022";
+    color: #58AEFF;
+    margin-right: 8px;
+}
+
+.secondary-menu ul li:nth-child(4)::before {
+    content: "\2022";
+    color: #B058FF;
+    margin-right: 8px;
+}
+
+.secondary-menu ul li:nth-child(5)::before {
+    content: "\2022";
+    color: #9AD045;
+    margin-right: 8px;
+}
+
+.secondary-menu ul li:nth-child(6)::before {
+    content: "\2022";
+    color: #FF589C;
+    margin-right: 8px;
+}
+
+.secondary-menu-label {
+    color: white;
+    padding: 0 25px;
+    opacity: 50%;
+}
+
+.teams-section {
+    padding: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.try-now {
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: #242531;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.teams-section label {
+    margin-bottom: 15px;
+    color: white;
+    opacity: 50%;
+}
+
+.teams-section .info {
+    padding: 15px;
+    background: #3A3C53;
+    border-radius: 10px;
+}
+
+.outlet {
+    padding: 15px;
+}
+
+.outlet ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 60px;
+    row-gap: 25px;
+}
+
+.outlet ul li:nth-child(1) button {
+    list-style: none;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    background: #58AEFF;
+    box-shadow: 5px 10px 20px #58AEFF;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.outlet ul li:nth-child(2) button {
+    list-style: none;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    background: #FF8158;
+    box-shadow: 5px 10px 20px #FF8158;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.outlet ul li:nth-child(3) button {
+    list-style: none;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    background: #FFB658;
+    box-shadow: 5px 10px 20px #FFB658;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.outlet ul li:nth-child(4) button {
+    list-style: none;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    background: #B058FF;
+    box-shadow: 5px 10px 20px #B058FF;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.project-artifact {
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+}

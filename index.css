@@ -204,6 +204,7 @@
     color: white;
     font-size: 24px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .outlet ul li:nth-child(2) button {
@@ -217,6 +218,7 @@
     color: white;
     font-size: 24px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .outlet ul li:nth-child(3) button {
@@ -230,6 +232,7 @@
     color: white;
     font-size: 24px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .outlet ul li:nth-child(4) button {
@@ -243,6 +246,7 @@
     color: white;
     font-size: 24px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .project-artifact {

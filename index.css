@@ -184,6 +184,15 @@
     row-gap: 25px;
 }
 
+.outlet ul li {
+    display: flex;
+    flex-direction: column;
+    max-width: 140px;
+    text-align: center;
+}
+
+
+
 .outlet ul li:nth-child(1) button {
     list-style: none;
     height: 140px;
